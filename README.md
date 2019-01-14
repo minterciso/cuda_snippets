@@ -8,6 +8,7 @@ I focused on 2 main distributions: Uniform and Normal
 
 ### Compilation
 Use nvcc and just add the -lcurand library:
+
     $ nvcc -o curand_dev curand_dev.cu -lcurand
 
 ### Usage
